@@ -194,23 +194,27 @@ Toujours vérifier :
 - structured data valide;
 - absence de ressources critiques bloquées.
 
-## 11. GEO
+## 11. GEO / Google Generative AI Search
 
-Créer du contenu facile à comprendre et citer :
+Traiter le GEO comme du **SEO moderne**, pas comme une discipline séparée fondée sur des hacks. Les fonctionnalités génératives de Google s’appuient sur l’index et les systèmes de classement Search, notamment via retrieval-augmented generation et query fan-out.
 
-- réponses directes;
-- faits précis;
-- titres explicites;
-- FAQ utiles;
-- tableaux/checklists lorsque adaptés;
-- sources officielles;
-- identité claire des entreprises/services/zones;
-- données à jour;
-- expertise réelle;
-- contenu original;
-- langage naturel.
+### Règles opérationnelles
 
-Le GEO ne doit jamais être traité comme un ensemble de hacks ou de mots-clés cachés.
+- Une page doit d’abord être **indexée et admissible à un snippet Google** pour pouvoir être éligible aux fonctionnalités génératives.
+- Créer du contenu non-commoditisé : expérience réelle, expertise, données locales vérifiées, comparaisons utiles, réponses précises et informations qui apportent quelque chose de plus que le consensus générique du Web.
+- Anticiper les sous-questions naturelles d’un prospect (prix, matériaux, subventions, délais, garanties, choix d’entrepreneur, erreurs à éviter), mais **ne pas créer une page distincte pour chaque fan-out ou variation de requête**. Regrouper les sous-questions dans une ressource forte lorsque l’intention est la même.
+- Utiliser des images/vidéos pertinentes et de qualité lorsqu’elles améliorent réellement la compréhension du service ou du projet.
+- Conserver une architecture technique claire et crawlable.
+- Ne pas investir du temps dans `llms.txt`, le « chunking SEO », des mentions artificielles ou d’autres tactiques GEO non soutenues par Google.
+- Ne jamais fabriquer des citations, avis, experts ou mentions pour influencer les réponses génératives.
+
+### Mesure
+
+Quand Search Console le permet, utiliser le **Generative AI performance report** en plus du rapport Performance classique. Mesurer la visibilité générative comme un canal de découverte et la relier, lorsque possible, aux landing pages et aux conversions.
+
+Pour LL MEDIA, l’ordre de priorité reste :
+
+**indexation → intention commerciale → qualité originale → Top 3/Top 10 → CTR → conversion → visibilité générative**.
 
 ## 12. Données structurées
 
@@ -223,6 +227,8 @@ Employer seulement des schémas conformes au contenu réel :
 - autres types lorsque réellement applicables.
 
 Ne jamais fabriquer Review, AggregateRating, adresse, licence, prix ou certification.
+
+Après le déploiement initial d’un balisage structuré ou une modification importante de template, contrôler Search Console/Rich Results après recrawl : hausse des éléments invalides, baisse inattendue des éléments valides, puis inspecter l’URL et corriger avant de généraliser le template.
 
 ## 13. Maillage interne
 
@@ -262,7 +268,9 @@ Lorsque disponible :
 - vérifier indexation;
 - surveiller mobile/desktop;
 - identifier nouveaux mots-clés;
-- prioriser les pages commerciales proches du Top 3.
+- prioriser les pages commerciales proches du Top 3;
+- consulter le rapport Generative AI lorsqu’il est disponible;
+- après un changement de template ou de structured data, contrôler les rapports d’amélioration et utiliser URL Inspection en cas d’anomalie.
 
 ## 16. CRO
 
