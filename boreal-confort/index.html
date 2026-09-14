@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Isolation et décontamination de grenier | Boréal Confort</title>
+  <meta name="description" content="Isolation et décontamination de grenier au Québec. Prix à partir de 1 990 $, subvention incluse selon admissibilité. Soumission gratuite.">
+  <meta name="theme-color" content="#06295c">
+  <meta property="og:title" content="Boréal Confort | Isolation de grenier">
+  <meta property="og:description" content="Grenier remis aux normes à partir de 1 990 $. Jusqu’à 1 500 $ avec LogisVert selon admissibilité.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+<div class="topbar"><div class="wrap topinner"><span>Isolation et décontamination de grenier au Québec</span><a data-phone-link><span data-phone></span></a></div></div>
+<header><nav class="wrap nav">
+  <a href="#" class="brand"><img src="transpareboreal.png" alt="Boréal Confort" onerror="this.hidden=true;this.nextElementSibling.hidden=false"><strong hidden>BORÉAL <em>CONFORT</em></strong></a>
+  <div class="links"><a href="#services">Services</a><a href="#decontamination">Décontamination</a><a href="#subventions">Subventions</a><a href="#faq">FAQ</a></div>
+  <a class="btn small" href="#soumission">Soumission gratuite</a>
+</nav></header>
+
+<main>
+<section class="hero">
+<div class="wrap heroGrid">
+  <div>
+    <span class="eyebrow">🏠 Isolation de grenier au Québec</span>
+    <h1>Votre grenier remis aux normes <mark>à partir de 1 990 $</mark></h1>
+    <p class="lead">Réduisez les pertes de chaleur et améliorez le confort de votre maison grâce à une isolation professionnelle.</p>
+    <div class="promo">Subvention LogisVert — jusqu’à 1 500 $ disponibles*</div>
+    <div class="checks"><span>✓ Soumission gratuite</span><span>✓ Sans obligation</span><span>✓ Réponse rapide</span><span>✓ Service au Québec</span></div>
+  </div>
+
+  <div class="formCard" id="soumission">
+    <h2>Recevez votre estimation gratuite</h2>
+    <p>Quelques questions rapides suffisent.</p>
+    <div class="progress"><i id="progress"></i></div>
+    <form id="leadForm">
+      <fieldset class="step active"><legend>Quel est votre type de propriété?</legend>
+        <label class="option"><input type="radio" name="propriete" value="Maison unifamiliale"> Maison unifamiliale</label>
+        <label class="option"><input type="radio" name="propriete" value="Duplex ou triplex"> Duplex ou triplex</label>
+        <label class="option"><input type="radio" name="propriete" value="Condo"> Condo</label>
+        <label class="option"><input type="radio" name="propriete" value="Autre"> Autre propriété</label>
+      </fieldset>
+
+      <fieldset class="step"><legend>Quels travaux recherchez-vous?</legend>
+        <label class="option"><input type="checkbox" name="travaux" value="Ajout isolant soufflé"> Ajout d’isolant soufflé</label>
+        <label class="option"><input type="checkbox" name="travaux" value="Remise aux normes"> Remise aux normes</label>
+        <label class="option"><input type="checkbox" name="travaux" value="Décontamination"> Décontamination du grenier</label>
+        <label class="option"><input type="checkbox" name="travaux" value="Retrait isolant"> Retrait et remplacement d’isolant</label>
+        <label class="option"><input type="checkbox" name="travaux" value="Calfeutrage"> Calfeutrage et étanchéité</label>
+        <label class="option"><input type="checkbox" name="travaux" value="Évaluation"> Je souhaite une évaluation</label>
+      </fieldset>
+
+      <fieldset class="step"><legend>Avez-vous remarqué un problème?</legend>
+        <label class="option"><input type="checkbox" name="problemes" value="Pièces froides"> Pièces froides ou température instable</label>
+        <label class="option"><input type="checkbox" name="problemes" value="Humidité"> Humidité ou moisissure</label>
+        <label class="option"><input type="checkbox" name="problemes" value="Rongeurs"> Rongeurs, excréments ou odeurs</label>
+        <label class="option"><input type="checkbox" name="problemes" value="Vermiculite"> Présence possible de vermiculite</label>
+        <label class="option"><input type="checkbox" name="problemes" value="Aucun"> Aucun problème visible</label>
+      </fieldset>
+
+      <fieldset class="step"><legend>Quand souhaitez-vous réaliser les travaux?</legend>
+        <label class="option"><input type="radio" name="delai" value="Dès que possible"> Dès que possible</label>
+        <label class="option"><input type="radio" name="delai" value="1 à 3 mois"> Dans 1 à 3 mois</label>
+        <label class="option"><input type="radio" name="delai" value="Information"> Je m’informe pour le moment</label>
+      </fieldset>
+
+      <fieldset class="step"><legend>Où se trouve la propriété?</legend>
+        <label class="field">Ville<input name="ville" autocomplete="address-level2" placeholder="Ex. Saint-Jérôme"></label>
+        <label class="field">Code postal<input name="code_postal" autocomplete="postal-code" placeholder="Ex. J7Z 1A1"></label>
+      </fieldset>
+
+      <fieldset class="step"><legend>À qui devons-nous envoyer l’estimation?</legend>
+        <div class="two"><label class="field">Prénom<input name="prenom" autocomplete="given-name"></label><label class="field">Nom<input name="nom" autocomplete="family-name"></label></div>
+        <label class="field">Téléphone<input name="telephone" type="tel" autocomplete="tel"></label>
+        <label class="field">Courriel<input name="courriel" type="email" autocomplete="email"></label>
+      </fieldset>
+
+      <p class="error" id="error" role="alert"></p>
+      <div class="actions"><button class="btn back" type="button" id="back" hidden>Retour</button><button class="btn" type="button" id="next">Continuer</button><button class="btn" type="submit" id="submit" hidden>Obtenir ma soumission</button></div>
+      <small>🔒 Vos renseignements demeurent confidentiels.</small>
+    </form>
+  </div>
+</div>
+</section>
+
+<div class="trust"><div class="wrap trustGrid"><span>✓ Soumission sans obligation</span><span>✓ Service professionnel</span><span>✓ Accompagnement personnalisé</span><span>✓ Travaux conformes</span></div></div>
+
+<section id="services"><div class="wrap">
+  <div class="heading"><b>Nos services</b><h2>Une solution complète pour votre grenier</h2><p>Des services adaptés pour améliorer le confort, l’étanchéité et la performance énergétique de votre maison.</p></div>
+  <div class="cards">
+    <article><i>🏠</i><h3>Isolation de grenier</h3><p>Évaluation et amélioration complète de l’isolation existante.</p></article>
+    <article><i>♨️</i><h3>Isolant soufflé</h3><p>Ajout uniforme de cellulose ou d’un isolant adapté à la propriété.</p></article>
+    <article><i>✓</i><h3>Remise aux normes</h3><p>Correction des zones insuffisamment isolées et des pertes thermiques.</p></article>
+    <article><i>↻</i><h3>Retrait d’isolant</h3><p>Retrait propre et remplacement lorsque la situation le nécessite.</p></article>
+    <article><i>🛡</i><h3>Calfeutrage</h3><p>Réduction des infiltrations d’air et amélioration de l’étanchéité.</p></article>
+    <article><i>💨</i><h3>Ventilation</h3><p>Vérification de la circulation d’air et de l’humidité du grenier.</p></article>
+  </div>
+</div></section>
+
+<section class="soft" id="decontamination"><div class="wrap">
+  <div class="heading"><b>Décontamination de grenier</b><h2>Votre isolant est contaminé, souillé ou endommagé?</h2><p>Avant d’ajouter un nouvel isolant, il peut être nécessaire de retirer les matériaux contaminés afin de repartir sur une base propre.</p></div>
+  <div class="cards">
+    <article><i>🔍</i><h3>Inspection</h3><p>Vérification visuelle de l’isolant, de l’humidité, des infiltrations et des odeurs.</p></article>
+    <article><i>⚠️</i><h3>Contamination</h3><p>Repérage des signes de rongeurs, d’excréments, d’eau ou de moisissure.</p></article>
+    <article><i>🧹</i><h3>Retrait contrôlé</h3><p>Extraction adaptée afin de limiter la dispersion de poussière.</p></article>
+    <article><i>🛡️</i><h3>Nettoyage</h3><p>Nettoyage des surfaces accessibles et traitement lorsque nécessaire.</p></article>
+    <article><i>💨</i><h3>Correction des causes</h3><p>Recherche des infiltrations, de l’humidité ou des problèmes de ventilation.</p></article>
+    <article><i>🏠</i><h3>Nouvelle isolation</h3><p>Installation d’une isolation performante après les corrections requises.</p></article>
+  </div>
+  <aside class="notice"><h3>Vous avez de la vermiculite?</h3><p>Ne la manipulez pas avant de connaître sa composition. Une analyse peut être recommandée. La présence d’amiante ne peut pas être confirmée uniquement par inspection visuelle.</p></aside>
+  <p class="center"><a class="btn" href="#soumission">Faire évaluer mon grenier gratuitement</a></p>
+</div></section>
+
+<section><div class="wrap split">
+  <div class="logoPanel"><img src="transpareboreal.png" alt="" loading="lazy"></div>
+  <div><div class="heading left"><b>Pourquoi Boréal Confort?</b><h2>Plus de confort, été comme hiver</h2><p>Une isolation adéquate aide à stabiliser la température et à réduire les pertes d’énergie.</p></div>
+  <ul class="benefits"><li><strong>Expertise locale</strong><span>Solutions adaptées aux habitations québécoises.</span></li><li><strong>Prix transparent</strong><span>Soumission claire selon la superficie et l’état du grenier.</span></li><li><strong>Accompagnement</strong><span>Conseils pour vos travaux et les aides financières applicables.</span></li><li><strong>Chantier propre</strong><span>Intervention professionnelle et respectueuse de votre maison.</span></li></ul></div>
+</div></section>
+
+<section class="soft"><div class="wrap"><div class="heading"><b>Simple et rapide</b><h2>Comment ça fonctionne?</h2></div>
+<div class="steps"><article><i>1</i><h3>Formulaire</h3><p>Décrivez vos besoins.</p></article><article><i>2</i><h3>Qualification</h3><p>Nous validons le projet.</p></article><article><i>3</i><h3>Soumission</h3><p>Recevez une estimation.</p></article><article><i>4</i><h3>Travaux</h3><p>Planifiez l’intervention.</p></article></div>
+</div></section>
+
+<section id="subventions"><div class="wrap">
+  <div class="subsidy">
+    <div><b>PROGRAMME D’AIDE FINANCIÈRE</b><h2>LogisVert — jusqu’à 1 500 $ disponibles*</h2><p>Le programme LogisVert d’Hydro-Québec peut offrir une aide pouvant atteindre 1 500 $ pour certains projets combinant l’isolation du toit ou du grenier avec des travaux admissibles de calfeutrage.</p><a class="btn" href="#soumission">Vérifier mon projet gratuitement</a></div>
+    <aside><h3>Votre projet pourrait être admissible si :</h3><p>✓ L’isolation du toit ou du grenier est améliorée.</p><p>✓ Le calfeutrage admissible est réalisé conjointement.</p><p>✓ La résidence et les travaux respectent les critères.</p><p>✓ Les factures et documents requis sont conservés.</p></aside>
+  </div>
+  <div class="cards subsidySteps"><article><i>1</i><h3>Évaluation</h3><p>Déterminer les travaux nécessaires.</p></article><article><i>2</i><h3>Vérification</h3><p>Comprendre les critères et documents requis.</p></article><article><i>3</i><h3>Documentation</h3><p>Obtenir une soumission et une facture détaillées.</p></article></div>
+  <p class="legal">* L’aide peut atteindre 1 500 $ lorsque la résidence et les travaux respectent les critères de LogisVert. L’admissibilité n’est pas garantie et demeure assujettie aux modalités d’Hydro-Québec en vigueur. Boréal Confort n’est pas affiliée à Hydro-Québec.</p>
+</div></section>
+
+<section class="soft" id="faq"><div class="wrap narrow"><div class="heading"><b>Questions fréquentes</b><h2>Tout savoir avant de commencer</h2></div>
+  <details><summary>Combien coûte l’isolation d’un grenier?</summary><p>Le coût dépend de la superficie, de l’isolation existante et des corrections nécessaires. Une évaluation permet d’obtenir un prix précis.</p></details>
+  <details><summary>Le prix de 1 990 $ s’applique-t-il à toutes les maisons?</summary><p>Non. Il s’agit d’un prix de départ tenant compte d’une aide potentielle. Chaque projet doit être évalué.</p></details>
+  <details><summary>Comment obtenir l’aide LogisVert de 1 500 $?</summary><p>Elle peut s’appliquer à certains projets combinant isolation du toit ou du grenier et calfeutrage admissible, sous réserve des modalités en vigueur.</p></details>
+  <details><summary>Doit-on retirer l’ancien isolant?</summary><p>Pas nécessairement. Le retrait peut être recommandé si l’isolant est contaminé, mouillé, détérioré ou empêche une correction.</p></details>
+  <details><summary>Que faire en présence de vermiculite?</summary><p>Évitez de la manipuler. Une analyse peut être requise avant les travaux afin de vérifier sa composition.</p></details>
+  <details><summary>La soumission est-elle gratuite?</summary><p>Oui, la demande est gratuite et sans obligation d’achat.</p></details>
+</div></section>
+
+<section class="final"><div class="wrap"><h2>Votre grenier pourrait être mieux isolé</h2><p>Faites évaluer votre isolation, vos besoins en décontamination et les aides financières applicables.</p><a class="btn" href="#soumission">Obtenir ma soumission gratuite</a></div></section>
+</main>
+
+<footer><div class="wrap footerGrid"><div><img src="transpareboreal.png" alt="Boréal Confort"><p>Isolation et décontamination de grenier au Québec.</p></div><div><h3>Coordonnées</h3><p><a data-phone-link><span data-phone></span></a></p><p><a data-email-link><span data-email></span></a></p></div><div><h3>Navigation</h3><p><a href="#services">Isolation</a></p><p><a href="#decontamination">Décontamination</a></p><p><a href="#subventions">Subventions</a></p></div></div></footer>
+<a class="btn mobileCta" href="#soumission">Soumission gratuite</a>
+<script src="app.js"></script>
+</body>
+</html>
