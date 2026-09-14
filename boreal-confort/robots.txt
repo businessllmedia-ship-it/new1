@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Remplacer par le domaine final
+Sitemap: https://votre-domaine.ca/sitemap.xml
