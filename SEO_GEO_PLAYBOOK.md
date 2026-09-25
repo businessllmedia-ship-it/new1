@@ -270,6 +270,9 @@ Lorsque disponible :
 - identifier nouveaux mots-clés;
 - prioriser les pages commerciales proches du Top 3;
 - consulter le rapport Generative AI lorsqu’il est disponible;
+- utiliser le filtre **multimodal search** dans les rapports Performance et Generative AI lorsqu’il apparaît afin d’identifier les recherches issues de Lens, Circle to Search, uploads d’images et recherche visuelle Chrome;
+- pour les métiers où une photo exprime directement le besoin, relier ces données aux landing pages et aux leads afin d’identifier les visuels et problèmes qui déclenchent une intention commerciale;
+- ne pas créer des images uniquement pour le classement multimodal : privilégier des photos originales, nettes, contextualisées et proches du contenu pertinent;
 - utiliser le filtre **multimodal search** dans les rapports Performance et Generative AI lorsqu’il apparaît, afin d’identifier les requêtes issues de Lens, Circle to Search, uploads d’images et recherches visuelles Chrome;
 - pour les métiers visuels (isolation, toiture, fissures, rénovation, cuisine, pavage, moisissure, etc.), relier ces données aux landing pages et aux leads afin d’identifier les images/problèmes qui déclenchent une intention commerciale;
 - ne pas créer des images uniquement pour « ranker » en multimodal : privilégier des photos originales, nettes, contextualisées, proches du contenu pertinent, avec dimensions et alt descriptifs lorsque cela aide l’utilisateur;
