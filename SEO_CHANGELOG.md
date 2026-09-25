@@ -71,3 +71,22 @@ Pour Google, le meilleur investissement GEO reste un excellent SEO : indexabilit
 ---
 
 Ne jamais conclure qu'une modification fonctionne uniquement à partir d'une fluctuation de quelques heures ou de quelques impressions.
+
+
+### 2026-09-25 — Search Console / recherche multimodale
+
+**Évidence**
+
+Google Search Central a annoncé le 24 septembre 2026 un filtre « multimodal search » dans les rapports Search Console Performance et Generative AI. Il couvre notamment Lens, Circle to Search, les uploads d’images dans Google Search et la recherche visuelle Chrome; le déploiement est mondial.
+
+**Changement effectué**
+
+Le playbook demande maintenant de mesurer ce canal séparément et, pour les services résidentiels visuels, de relier trafic multimodal, landing page et demandes de soumission. Il conserve la priorité aux photos originales et utiles plutôt qu’aux tactiques visuelles artificielles.
+
+**Résultat attendu**
+
+Identifier de nouvelles intentions commerciales visuelles et améliorer les pages capables de convertir ces recherches en demandes de soumission.
+
+**Apprentissage**
+
+La recherche visuelle est désormais un canal mesurable dans Search Console. L’objectif LL MEDIA doit être de relier la visibilité multimodale aux leads, pas simplement de maximiser les impressions d’images.
