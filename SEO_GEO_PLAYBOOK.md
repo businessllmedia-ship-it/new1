@@ -271,9 +271,6 @@ Lorsque disponible :
 - prioriser les pages commerciales proches du Top 3;
 - consulter le rapport Generative AI lorsqu’il est disponible;
 - utiliser le filtre **multimodal search** dans les rapports Performance et Generative AI lorsqu’il apparaît afin d’identifier les recherches issues de Lens, Circle to Search, uploads d’images et recherche visuelle Chrome;
-- pour les métiers où une photo exprime directement le besoin, relier ces données aux landing pages et aux leads afin d’identifier les visuels et problèmes qui déclenchent une intention commerciale;
-- ne pas créer des images uniquement pour le classement multimodal : privilégier des photos originales, nettes, contextualisées et proches du contenu pertinent;
-- utiliser le filtre **multimodal search** dans les rapports Performance et Generative AI lorsqu’il apparaît, afin d’identifier les requêtes issues de Lens, Circle to Search, uploads d’images et recherches visuelles Chrome;
 - pour les métiers visuels (isolation, toiture, fissures, rénovation, cuisine, pavage, moisissure, etc.), relier ces données aux landing pages et aux leads afin d’identifier les images/problèmes qui déclenchent une intention commerciale;
 - ne pas créer des images uniquement pour « ranker » en multimodal : privilégier des photos originales, nettes, contextualisées, proches du contenu pertinent, avec dimensions et alt descriptifs lorsque cela aide l’utilisateur;
 - après un changement de template ou de structured data, contrôler les rapports d’amélioration et utiliser URL Inspection en cas d’anomalie.
@@ -294,6 +291,17 @@ Mesurer :
 Améliorer en priorité le hero, la preuve, le CTA, la longueur du formulaire, la microcopy et les objections.
 
 ## 17. Boucle d’amélioration
+
+### Pendant une mise à jour Google officiellement active
+
+Quand le Google Search Status Dashboard signale une mise à jour de ranking active :
+
+- annoter sa date de début dans l’analyse;
+- ne pas transformer une fluctuation de quelques jours en nouvelle règle SEO;
+- éviter les réécritures massives motivées uniquement par des mouvements de positions pendant le rollout;
+- continuer immédiatement les corrections objectives : spam, duplication artificielle, indexation, erreurs techniques, contenu faible ou formulaires défectueux;
+- après la fin officielle du rollout, comparer une fenêtre avant/après suffisamment représentative avant d’attribuer un gain ou une perte à une optimisation;
+- privilégier les requêtes commerciales et les leads organiques, pas uniquement la position moyenne.
 
 Suivre `DAILY_IMPROVEMENT.md`.
 
