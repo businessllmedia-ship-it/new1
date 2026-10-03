@@ -171,7 +171,8 @@ Checklist :
 - sources officielles lorsqu’utile;
 - Open Graph;
 - données structurées cohérentes;
-- aucune duplication artificielle.
+- aucune duplication artificielle;
+- tout contenu généré ou assisté par IA doit être relu et fact-checké avant publication, y compris les `<title>`, meta descriptions, données structurées et textes alternatifs d’images. L’automatisation ne remplace jamais la validation des faits, offres, prix, licences, zones desservies ou preuves commerciales.
 
 ## 10. SEO technique
 
@@ -192,7 +193,8 @@ Toujours vérifier :
 - images optimisées;
 - JavaScript non bloquant;
 - structured data valide;
-- absence de ressources critiques bloquées.
+- absence de ressources critiques bloquées;
+- normalisation stricte du protocole et de l’hôte : choisir une seule version canonique (`https`, avec ou sans `www`), rediriger les variantes en 301 vers cette version, utiliser cette même version dans les canonicals, sitemap, liens internes et données structurées. Si Search Console montre une même requête répartie entre plusieurs variantes d’une URL, traiter cela comme une anomalie technique prioritaire avant d’optimiser le copywriting.
 
 ## 11. GEO / Google Generative AI Search
 
