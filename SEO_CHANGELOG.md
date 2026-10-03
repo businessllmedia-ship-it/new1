@@ -90,3 +90,28 @@ Identifier de nouvelles intentions commerciales visuelles et améliorer les page
 **Apprentissage**
 
 La recherche visuelle est désormais un canal mesurable dans Search Console. L’objectif LL MEDIA doit être de relier la visibilité multimodale aux leads, pas simplement de maximiser les impressions d’images.
+
+
+---
+
+### 2026-10-03 — QA contenu IA + normalisation canonique
+
+**Évidence**
+
+Google Search Central a mis à jour le 1er octobre 2026 son guide sur le contenu généré par IA. Google recommande explicitement de vérifier manuellement l’exactitude et la fiabilité du contenu généré, et précise que cette revue s’applique aussi aux titles, meta descriptions, structured data et alt text.
+
+Les données Search Console disponibles jusqu’au 29 septembre montrent aussi un signal technique concret sur CompareSoumission.ca : la requête commerciale « soumission excavation » est répartie entre `https://comparesoumission.ca/excavation` (position 10) et `https://www.comparesoumission.ca/excavation` (position 6). « décontamination moisissure prix » apparaît également sur une variante HTTP. Le volume est encore faible, donc il ne faut pas tirer de conclusion de ranking, mais la coexistence des variantes justifie un contrôle de normalisation/canonicalisation.
+
+**Changement effectué**
+
+- ajouté un QA humain/fact-check obligatoire pour tout contenu IA avant publication, incluant métadonnées, structured data et alt text;
+- ajouté une règle technique de normalisation stricte HTTP/HTTPS et www/non-www avec 301, canonical, sitemap et liens internes cohérents;
+- ajouté la règle de traiter une requête répartie entre variantes d’URL comme anomalie technique prioritaire avant une optimisation éditoriale.
+
+**Résultat attendu**
+
+Réduire les erreurs factuelles introduites par l’automatisation SEO et éviter de disperser les signaux entre variantes d’URL.
+
+**Apprentissage**
+
+L’automatisation LL MEDIA doit accélérer la production sans automatiser la confiance. Les faits et métadonnées doivent être validés; les variantes techniques d’une même page doivent être consolidées avant d’interpréter les positions.
